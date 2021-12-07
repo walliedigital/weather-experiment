@@ -1,0 +1,25 @@
+@import-normalize; /* bring in normalize.css styles */
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  background: rgb(220, 220, 200);
+  background: linear-gradient(0deg, rgba(143, 143, 143, 1) 0%, rgba(220, 220, 220, 1) 100%);
+}
+
+.weather-title {
+  padding-top: 20px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.info-up {
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
